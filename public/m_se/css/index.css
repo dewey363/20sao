@@ -1,0 +1,70 @@
+header{
+    //border: 1px solid #ddd;
+}
+header .nav-list{
+    border: none;
+}
+header .userPanel{
+    line-height: 36px;
+}
+*,.panel-footer {
+    background-color: #000;
+}
+header .logo{
+    height: 42px;
+    width: 101px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/logo.png");
+}
+header .searchForm{
+    margin-top: 3px;
+}
+header .searchForm input {
+    background-color: #000;
+}
+header .userPanel .login, header .userPanel .register,header .userPanel .lqVip{
+    padding: 0px;
+}
+.contentLeft .tips{
+    margin-bottom: 0px;
+}
+.dataList .header .tuijian{
+    border: none;
+}
+.dataList .header{
+    border-bottom: 1px solid #ddd;
+}
+.dataList .tuijian li a{
+    padding: 8px 5px;
+    text-decoration: underline;
+}
+.dataList .shipin{
+    padding: 0;
+    background: #000;
+    border: none;
+}
+.dataList a {
+    border: 1px solid #000;
+    background-color: #000;
+}
+.dataList .shipin .title{
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    height: 8.6rem;
+    text-overflow: ellipsis;
+}
+
+/*专辑页面*/
+.video-play-src a {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    color: #3e4452;
+    float: left;
+    margin: 2px 5px 0 6px;
+    background: #e6e8e9;
+}
