@@ -3,7 +3,7 @@
 namespace App\Jobs;
 
 use App\Models\Video;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 class ListOneJob extends Job
 {
@@ -34,6 +34,8 @@ class ListOneJob extends Job
                     if(strpos($match[1], '.mp4')){
                         $map->file_url = $match[1];
                         $map->save();
+                        $fileCont = file_get_contents($match[1]);
+                        Storage::disk('local')->put('video/'.$map->id.'mp4', $fileCont);
                     }
                 }
             }catch (\Exception $e)

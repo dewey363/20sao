@@ -20,7 +20,7 @@
                                         <img src="{{route('se.getThumb', $item->id)}}" />
                                     </a>
                                     <a href="{{route('se.info', $item->id)}}" @if($data['isMobile']) target="_blank"@endif>
-                                        <div class="title">{{$item->title}}</div>
+                                        <div class="title text-center">{{$item->title}}</div>
                                     </a>
                                 </div>
                                 @elseif($loop->index %2 == 1)
@@ -29,7 +29,7 @@
                                             <img src="{{route('se.getThumb', $item->id)}}" />
                                         </a>
                                         <a href="{{route('se.info', $item->id)}}" @if($data['isMobile']) target="_blank"@endif>
-                                            <div class="title">{{$item->title}}</div>
+                                            <div class="title text-center">{{$item->title}}</div>
                                         </a>
                                     </div>
                             </div>
@@ -46,7 +46,7 @@
                                             <img src="{{route('se.getThumb', $item->id)}}" />
                                         </a>
                                         <a href="{{route('se.info', $item->id)}}">
-                                            <div class="title">{{$item->title}}</div>
+                                            <div class="title text-center">{{$item->title}}</div>
                                         </a>
                                     </div>
                                     @elseif($loop->index %4 == 3)
@@ -55,7 +55,7 @@
                                                 <img src="{{route('se.getThumb', $item->id)}}" />
                                             </a>
                                             <a href="{{route('se.info', $item->id)}}" >
-                                                <div class="title">{{$item->title}}</div>
+                                                <div class="title text-center">{{$item->title}}</div>
                                             </a>
                                         </div>
                                 </div>
@@ -65,7 +65,7 @@
                                         <img src="{{route('se.getThumb', $item->id)}}" />
                                     </a>
                                     <a href="{{route('se.info', $item->id)}}" >
-                                        <div class="title">{{$item->title}}</div>
+                                        <div class="title text-center">{{$item->title}}</div>
                                     </a>
                                 </div>
                             @endif
@@ -92,7 +92,7 @@
                                     <img src="{{route('se.getThumb', $item->id)}}" />
                                 </a>
                                 <a href="{{route('se.info', $item->id)}}" @if($data['isMobile']) target="_blank"@endif>
-                                    <div class="title">{{$item->title}}</div>
+                                    <div class="title text-center">{{$item->title}}</div>
                                 </a>
                             </div>
                             @elseif($loop->index %2 == 1)
@@ -101,7 +101,7 @@
                                     <img src="{{route('se.getThumb', $item->id)}}" />
                                 </a>
                                 <a href="{{route('se.info', $item->id)}}" @if($data['isMobile']) target="_blank"@endif>
-                                    <div class="title">{{$item->title}}</div>
+                                    <div class="title text-center">{{$item->title}}</div>
                                 </a>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                                             <img src="{{route('se.getThumb', $item->id)}}" />
                                         </a>
                                         <a href="{{route('se.info', $item->id)}}">
-                                            <div class="title">{{$item->title}}</div>
+                                            <div class="title text-center">{{$item->title}}</div>
                                         </a>
                                     </div>
                                     @elseif($loop->index %4 == 3)
@@ -127,7 +127,7 @@
                                                 <img src="{{route('se.getThumb', $item->id)}}" />
                                             </a>
                                             <a href="{{route('se.info', $item->id)}}" >
-                                                <div class="title">{{$item->title}}</div>
+                                                <div class="title text-center">{{$item->title}}</div>
                                             </a>
                                         </div>
                                 </div>
@@ -137,7 +137,7 @@
                                         <img src="{{route('se.getThumb', $item->id)}}" />
                                     </a>
                                     <a href="{{route('se.info', $item->id)}}" >
-                                        <div class="title">{{$item->title}}</div>
+                                        <div class="title text-center">{{$item->title}}</div>
                                     </a>
                                 </div>
                             @endif
