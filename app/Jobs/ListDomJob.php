@@ -9,6 +9,9 @@
 namespace App\Jobs;
 
 
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Storage;
+
 class ListDomJob extends Job
 {
     private $html;
@@ -43,6 +46,9 @@ class ListDomJob extends Job
                 'thumb' => $map->find('a>img')->attr('src'),
             ];
             dispatch(new ListOneJob($data));
+            $client = new Client();
+            $file = $client->get($data['thumb']);
+            Storage::disk('local')->put('thumb/'.$map->id.'.jpg', $file->getBody());
         }
     }
 }

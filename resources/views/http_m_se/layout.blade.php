@@ -54,9 +54,6 @@
     <div class="row main" id="pjax-container">
         @yield('body')
     </div>
-    <footer>
-        <script src="https://s19.cnzz.com/z_stat.php?id=1263317006&web_id=1263317006" language="JavaScript"></script>
-    </footer>
 </div>
 </body>
 </html>
