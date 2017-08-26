@@ -35,9 +35,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <a href="{{route('se.index')}}">
-                    <h5 class="text-center" style="color: red">
-                        QQ群：<a href="https://jq.qq.com/?_wv=1027&k=4EZkcvs">637063699</a>，
-                        一秒钟记住久久色：www.99se99se.com</h5>
+                    <h5 class="text-center" style="color: red">一秒钟记住久久色：www.99se99se.com</h5>
                 </a>
             </div>
             <div class="col-xs-12">
